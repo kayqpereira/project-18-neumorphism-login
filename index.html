@@ -1,0 +1,49 @@
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+      <title>Formulário de Login Neumórfico</title>
+      <meta name="description" content="Exemplo de formulário de login com design neumórfico em HTML e CSS." />
+      <meta name="keywords" content="formulário de login, CSS, HTML, design neumórfico, UI" />
+      <meta name="author" content="Kayque Silva" />
+      <meta name="robots" content="index, follow" />
+
+      <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon-login.png" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <script src="https://kit.fontawesome.com/a31080521f.js" crossorigin="anonymous" defer></script>
+    </head>
+
+    <body>
+      <main class="login">
+        <h1 class="login__title">Formulário de Login</h1>
+
+        <form class="login__form" action="#">
+          <div class="login__field">
+            <input class="login__input" type="text" id="email" name="email" required />
+            <span class="fas fa-user login__icon"></span>
+            <label class="login__label" for="email">E-mail ou Telefone</label>
+          </div>
+
+          <div class="login__field">
+            <input class="login__input" type="password" id="password" name="password" required />
+            <span class="fas fa-lock login__icon"></span>
+            <label class="login__label" for="password">Senha</label>
+          </div>
+
+          <p class="login__forgot">
+            <a href="#">Esqueceu a senha?</a>
+          </p>
+
+          <button type="submit" class="login__button">Entrar</button>
+
+          <p class="login__register">
+            Não é membro?
+            <a href="#">Cadastre-se</a>
+          </p>
+        </form>
+      </main>
+    </body>
+  </html>
